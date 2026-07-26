@@ -1,37 +1,37 @@
 export interface User {
   id: number
-  name: String
-  email: String
+  name: string
+  email: string
   address: Address
-  phone: String
-  website: String
+  phone: string
+  website: string
   company: Company
 }
 
 interface Address {
-  street: String
-  suite: String
-  city: String
-  zipcode: String
+  street: string
+  suite: string
+  city: string
+  zipcode: string
   geo: GeoLocation
 }
 
 interface GeoLocation {
-  lat: String
-  lng: String
+  lat: string
+  lng: string
 }
 
 interface Company {
-  name: String
-  catchPhrase: String
-  bs: String
+  name: string
+  catchPhrase: string
+  bs: string
 }
 
 export interface Post {
   userId: number
   id: number
-  title: String
-  body: String
+  title: string
+  body: string
 }
 
 export interface MessageState {
