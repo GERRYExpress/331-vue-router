@@ -33,3 +33,7 @@ export interface Post {
   title: String
   body: String
 }
+
+export interface MessageState {
+  message: string
+}
